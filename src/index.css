@@ -1,0 +1,20 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*Nav elements start here */
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #F55A5A;
+  color: white;
+  justify-content: center;
+  padding: 12px;
+}
+
+.globe{
+  margin-right: 10px;
+}
