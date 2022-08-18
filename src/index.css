@@ -1,20 +1,95 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container * {
+  /* margin-left: auto;
+  margin-right: auto; */
+  max-width: 550px;
+
 }
 
 /*Nav elements start here */
 
 nav {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #F55A5A;
   color: white;
-  justify-content: center;
   padding: 12px;
 }
 
-.globe{
+
+.globe {
   margin-right: 10px;
+}
+
+/*Card elements start here */
+.card {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.googlePin {
+  width: 7px;
+}
+
+.photos {
+  width: 126px;
+  height: 170px;
+  margin: 40px 43px;
+  border-radius: 10px;
+}
+
+.card--data {
+  margin: 40px 43px;
+}
+
+.location {
+  display: inline-block;
+  font-size: 0.64rem;
+  font-weight: 400;
+  padding: 5px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.googleMapsLink {
+  color: #918E9B;
+  font-size: 0.625rem;
+}
+
+.title {
+  font-size: 1.5625rem;
+}
+
+.dates {
+  font-size: 0.64rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 0.64rem;
+}
+
+hr {
+  width: 100%;
+  align-self: flex-end;
+  justify-self: center;
+  text-align: center;
+  border-top: 5px solid red;
+
 }

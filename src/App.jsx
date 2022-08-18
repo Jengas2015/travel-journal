@@ -18,8 +18,12 @@ const cards= Data.map (item => {
 
   return (
     <div className="App">
+      <div className='container'>
       <Nav />
       {cards}
+
+      </div>
+
     </div>
   )
 }
