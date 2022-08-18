@@ -6,8 +6,17 @@
 
 }
 
+body {
+  background-color: #e1dfe6;
+}
+
 .container {
   margin-top: 50px;
+  background-color: white;
+  max-width: 550px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container * {
@@ -28,6 +37,7 @@ nav {
   background-color: #F55A5A;
   color: white;
   padding: 12px;
+
 }
 
 
@@ -38,6 +48,7 @@ nav {
 /*Card elements start here */
 .card {
   display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,12 +60,14 @@ nav {
 .photos {
   width: 126px;
   height: 170px;
-  margin: 40px 43px;
+  margin: 40px 10px 40px 40px;
   border-radius: 10px;
 }
 
 .card--data {
-  margin: 40px 43px;
+  flex: 1 1 40%;
+  display: inline;
+  margin: 40px 40px 40px 10px;
 }
 
 .location {
@@ -86,10 +99,8 @@ nav {
 }
 
 hr {
-  width: 100%;
-  align-self: flex-end;
-  justify-self: center;
-  text-align: center;
-  border-top: 5px solid red;
-
+  border: 1px solid #F5F5F5;
+  display: flex;
+  margin: 0 auto;
+  flex: 1 1 478px;
 }
